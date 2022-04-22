@@ -1,0 +1,37 @@
+/* Slider.css */
+
+.slider {
+margin-bottom: 0;
+}
+
+.input-range__slider {
+  background: #52228C;
+  height: 14px;
+  width: 14px;
+  border: none;
+}
+
+.input-range__track {
+  height: 3px;
+  margin-bottom: 2px;
+  background: #999999;
+}
+
+.input-range__track--active {
+  height: 3px;
+  background: #52228C;
+}
+
+.input-range__label--value .input-range__label-container {
+  display: none;
+}
+
+.input-range__label--min .input-range__label-container,
+.input-range__label--max .input-range__label-container
+ {
+  display: none;
+}
+
+.input-range__label--max .input-range__label-container {
+  left: 25%;
+}
